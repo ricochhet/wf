@@ -1,0 +1,17 @@
+build
+.test
+target
+*.exe
+*.obj
+*.bin
+*.o
+.releases
+*.syso
+*.log
+
+.zig-cache
+zig-out
+
+assets/
+OpenWF/
+Warframe/

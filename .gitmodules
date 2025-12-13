@@ -1,0 +1,4 @@
+[submodule "cmd/dbmod/submodules/warframe-public-export"]
+	path = cmd/dbmod/submodules/warframe-public-export
+	url = https://github.com/calamity-inc/warframe-public-export-plus
+	ignore = dirty

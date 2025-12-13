@@ -1,0 +1,10 @@
+go 1.25.5
+
+use (
+    ./pkg
+    ./cmd/dbmod
+    ./cmd/gpm
+    // linters
+    ./linters/checknewlines
+    ./linters/checkrecv
+)

@@ -1,0 +1,2 @@
+id ICON "./assets/win-icon.ico"
+GLFW_ICON ICON "./assets/win-icon.ico"
