@@ -114,7 +114,7 @@ dbmod-windows-build: fmt
 
 .PHONY: dbmod-windows-postbuild
 dbmod-windows-postbuild: fmt
-	cp -r $(DBMOD_ASSETS_PATH) $(BUILD_OUTPUT)/assets
+	cp -r $(DBMOD_ASSETS_PATH) $(BUILD_OUTPUT)/
 # icons
 	rcedit-x64 $(BUILD_OUTPUT)/dbmod.exe --set-icon $(ASSET_PATH)/win-icon.ico
 
